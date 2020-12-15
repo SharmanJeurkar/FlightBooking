@@ -5,9 +5,9 @@ Admins please login for change in Flight schedule.
 						
 				<p>		
 						<form action="admin-login">
-						<input type="text" name="name">
-						<input type="text" name="password">
-						<input type="submit" value="login">
+						<input type="text" name="name"><br>
+						<input type="text" name="password"><br>
+						<input type="submit" value="login"><br>
 						</form>
                </p>
 
