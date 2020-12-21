@@ -1,4 +1,9 @@
 <html>
+	<head>
+		
+		<link href="${crunchifyCSS}" rel="stylesheet" />
+		
+	</head>	
 <body>
 Welcome to Flight Booking web site.
 Admins please login for change in Flight schedule.	
