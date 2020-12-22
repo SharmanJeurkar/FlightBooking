@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.login{
+	 margin: auto;  
+     margin: 20 0 0 450px;
+	padding:100px;
+	border:2px;
+	border-radius:10px;
+	background:rgb(0, 255, 0);
+}
