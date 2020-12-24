@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.FlightBooking.services.Admin_Login_Services;
+import com.FlightBooking.servicesLogin_services;
 
 @Controller
 public class Admin_Login_Controller {
@@ -20,7 +20,7 @@ public class Admin_Login_Controller {
 		String password=req.getParameter("password");
 	
 	    ModelAndView mv=new ModelAndView();
-		if(new Admin_Login_Services().check(name, password))
+		if(new Login_services().check(name, password))
 		{
 			mv.addObject("name",name);
 			mv.setViewName("Welcome.jsp");
