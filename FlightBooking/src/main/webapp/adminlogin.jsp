@@ -1,19 +1,28 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		
-		<link href="${crunchifyCSS}" rel="stylesheet" />
-		
-	</head>	
-<body>
-Welcome to Flight Booking web site.
-Admins please login for change in Flight schedule.	
-				<p>		
-						<form action="admin-login">
-						<input type="text" name="name"><br><br>
-						<input type="password" name="password"><br><br>
-						<input type="submit" value="login"><br><br>
-						</form>
-               </p>
+<head>
+<meta charset="ISO-8859-1">
 
+<link rel="stylesheet" href="resources/css/style.css">
+<title>Admin Login Page</title>
+</head>
+<body>
+<form action="adminlogin">
+    <h2><span class="entypo-login"><i class="fa fa-sign-in"></i></span> Login</h2>
+    <button class="submit"><span class="entypo-lock"><i class="fa fa-lock"></i></span></button>
+    <span class="entypo-user inputUserIcon">
+       
+       <i class="fa fa-user"></i>
+      
+     </span>
+    <input type="text" class="user" placeholder="username" name="name"/><br><br>
+    
+    <span class="entypo-key inputPassIcon">
+       <i class="fa fa-key"></i>
+      
+     </span>
+    <input type="password" class="pass"placeholder="password" name="password"/>
+   
+  </form>
 </body>
 </html>
