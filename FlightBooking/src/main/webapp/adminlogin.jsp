@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="adminlogin">
-    <h2><span class="entypo-login"><i class="fa fa-sign-in"></i></span> Login</h2>
+    <h2><span class="entypo-login"><i class="fa fa-sign-in"></i></span> Admin Login Credentials!</h2>
     <button class="submit"><span class="entypo-lock"><i class="fa fa-lock"></i></span></button>
     <span class="entypo-user inputUserIcon">
        
