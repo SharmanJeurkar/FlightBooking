@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class Admin_Login_Services {
+public class Login_services {
 	public boolean check(String name, String password) {
 		
 		try {
